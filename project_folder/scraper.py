@@ -9,10 +9,10 @@ import datetime
 class twitterminer():
     
     twitter_keys = {
-        'consumer_key':"YDOs0wyNUrOIRoPxIAGjPoTHF",
-        'consumer_secret':"HGZCHwNfA9e6VbpAFo7E9Ql8AAGEVh1p3vPoheQsDVX1ea6m3h",
-        'access_token_key':"1153265950210371584-2uPqwX56qYvPOzVnTcSIeCaZJRGSMv",
-        'access_token_secret':"zs3WQYVccaaMu0DVvifZdj3it2bBOpXfSu4YzTezAAAzL"
+        'consumer_key':"",
+        'consumer_secret':"",
+        'access_token_key':"",
+        'access_token_secret':""
     }
 
     client = pymongo.MongoClient('mongodb://localhost:27017/')
